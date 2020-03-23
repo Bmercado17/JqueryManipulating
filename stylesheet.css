@@ -1,6 +1,7 @@
 body {
   padding: 20px;
   font-family: Roboto;
+  background-color: gray;
 }
 .cardSlider .wrapper {
   position: relative;
@@ -10,7 +11,7 @@ body {
   width: 80%;
   height: 300px;
   margin: 0 auto;
-  background: gray;
+  background: darkmagenta;
 }
 .card-container .item {
   height: 300px;
@@ -35,8 +36,13 @@ body {
 .action-btns .btn-prev {
   float: left;
   margin-top: 80px;
+  margin-left: 30px;
 }
 .action-btns .btn-next {
   float: right;
   margin-top: 80px;
+  margin-right: 30px;
+}
+h6 {
+  color: white;
 }
